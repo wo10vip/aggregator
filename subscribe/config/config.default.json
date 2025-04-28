@@ -104,105 +104,9 @@
         },
         "repositories": [
             {
-                "enable": true,
-                "username": "ripaojiedian",
-                "repo_name": "freenode",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            },
-            {
-                "enable": true,
-                "username": "vxiaov",
-                "repo_name": "free_proxies",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            },
-            {
-                "enable": true,
-                "username": "ermaozi",
-                "repo_name": "get_subscribe",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            },
-            {
-                "enable": true,
-                "username": "peasoft",
-                "repo_name": "NoMoreWalls",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            },
-            {
-                "enable": true,
-                "username": "chengaopan",
-                "repo_name": "AutoMergePublicNodes",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            },
-            {
-                "enable": true,
-                "username": "go4sharing",
-                "repo_name": "sub",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            },
-            {
-                "enable": true,
-                "username": "qjlxg",
-                "repo_name": "aggregator",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            },
-            {
-                "enable": true,
-                "username": "anaer",
-                "repo_name": "Sub",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            },
-            {
-                "enable": true,
-                "username": "Flikify",
-                "repo_name": "getNode",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            },
-            {
-                "enable": true,
-                "username": "mfuu",
-                "repo_name": "v2ray",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            },
-            {
-                "enable": true,
-                "username": "Ruk1ng001",
-                "repo_name": "freeSub",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            },
-            {
-                "enable": true,
-                "username": "snakem982",
-                "repo_name": "proxypool",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            },
-            {
-                "enable": true,
-                "username": "soroushmirzaei",
-                "repo_name": "telegram-configs-collector",
+                "enable": false,
+                "username": "",
+                "repo_name": "",
                 "commits": 3,
                 "exclude": "",
                 "push_to": []
@@ -257,12 +161,31 @@
         }
     },
     "storage": {
-        "engine": "file",
-        "base": "",
-        "domain": "",
+        "engine": "xxx",
+        "base": "https://api.xxx.com",
+        "domain": "https://xxx.com",
         "items": {
-            "sub.txt": {
-                "file_path": "./sub.txt"
+            "xxx-clash": {
+                "username": "",
+                "folderid": "",
+                "fileid": ""
+            },
+            "xxx-singbox": {
+                "fileid": ""
+            },
+            "xxx-v2ray": {
+                "username": "",
+                "fileid": ""
+            },
+            "crawledsubs": {
+                "username": "",
+                "folderid": "",
+                "fileid": ""
+            },
+            "crawledproxies": {
+                "username": "",
+                "folderid": "",
+                "fileid": ""
             }
         }
     }
