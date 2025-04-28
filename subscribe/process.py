@@ -300,7 +300,8 @@ def load_configs(
 
         sys.exit(e.code)
     except:
-        logger.error("occur error when load task config")
+        logger.error(f"occur error when load task config:\n{traceback.format_exc()}") #修改后的代码
+        #原始302行的代码 logger.error("occur error when load task config")
         sys.exit(0)
 
     return ProcessConfig(
