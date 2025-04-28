@@ -263,28 +263,6 @@
         "items": {
             "sub.txt": {
                 "file_path": "./sub.txt"
-            },
-            "xxx-clash": {
-                "username": "",
-                "folderid": "",
-                "fileid": ""
-            },
-            "xxx-singbox": {
-                "fileid": ""
-            },
-            "xxx-v2ray": {
-                "username": "",
-                "fileid": ""
-            },
-            "crawledsubs": {
-                "username": "",
-                "folderid": "",
-                "fileid": ""
-            },
-            "crawledproxies": {
-                "username": "",
-                "folderid": "",
-                "fileid": ""
             }
         }
     }
