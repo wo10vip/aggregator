@@ -281,7 +281,11 @@ def load_configs(
         else:
             localfile = os.path.abspath(url)
             if os.path.exists(localfile) and os.path.isfile(localfile):
-                config = json.loads(open(localfile, "r", encoding="utf8").read())
+                # 打印加载的配置内容
+                with open(localfile, "r", encoding="utf8") as f:
+                    config = json.load(f)
+                    logger.info(f"Loaded config: {json.dumps(config, indent=4)}")  # 输出配置内容
+        
                 os.environ["SUBSCRIBE_CONF"] = localfile
                 parse_config(config)
     
