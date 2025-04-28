@@ -281,28 +281,23 @@ def load_configs(
         else:
             localfile = os.path.abspath(url)
             if os.path.exists(localfile) and os.path.isfile(localfile):
-                # 打印加载的配置内容
-                with open(localfile, "r", encoding="utf8") as f:
-                    config = json.load(f)
-                    logger.info(f"Loaded config: {json.dumps(config, indent=4)}")  # 输出配置内容
-        
+                config = json.loads(open(localfile, "r", encoding="utf8").read())
                 os.environ["SUBSCRIBE_CONF"] = localfile
                 parse_config(config)
-    
+
         # check configuration
         if not verify(storage=storage, groups=groups):
             raise ValueError(f"there are some errors in the configuration, please check and confirm")
-    
+
         # execute crawl tasks
         if params:
             result = crawl.batch_crawl(conf=params, num_threads=num_threads, display=display)
             tasks.extend(result)
-    
-    except Exception as e:
-        logger.error(f"Error occurred while loading task config: {str(e)}")
-        logger.exception(e)  # This will provide the complete stack trace
-        sys.exit(0)
+    except SystemExit as e:
+        if e.code != 0:
+            logger.error("parse configuration failed due to process abnormally exits")
 
+        sys.exit(e.code)
     except:
         logger.error("occur error when load task config")
         sys.exit(0)
