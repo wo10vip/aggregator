@@ -1,9 +1,9 @@
 {
   "domains": [
     {
-      "name": "Pawdroid-FreeServers",
+      "name": "01",
       "sub": [
-        "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/v2rayfree.json"
+        "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
       ],
       "domain": "raw.githubusercontent.com",
       "enable": true,
@@ -16,9 +16,9 @@
       "liveness": true
     },
     {
-      "name": "Aiboboxx-v2rayfree",
+      "name": "02",
       "sub": [
-        "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2rayfree.json"
+        "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml"
       ],
       "domain": "raw.githubusercontent.com",
       "enable": true,
@@ -31,9 +31,9 @@
       "liveness": true
     },
     {
-      "name": "Free18-v2ray",
+      "name": "03",
       "sub": [
-        "https://raw.githubusercontent.com/free18/v2ray/master/subscribe.json"
+        "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
       ],
       "domain": "raw.githubusercontent.com",
       "enable": true,
@@ -46,11 +46,11 @@
       "liveness": true
     },
     {
-      "name": "sun9426-free-v2ray",
+      "name": "04",
       "sub": [
-        "https://sun9426.github.io/free-v2ray/subscribe.txt"
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml"
       ],
-      "domain": "sun9426.github.io",
+      "domain": "raw.githubusercontent.com",
       "enable": true,
       "push_to": [
         "all"
@@ -61,9 +61,9 @@
       "liveness": true
     },
     {
-      "name": "skka3134-FreeServers",
+      "name": "05",
       "sub": [
-        "https://raw.githubusercontent.com/skka3134/Free-servers/main/subscribe.json"
+        "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml"
       ],
       "domain": "raw.githubusercontent.com",
       "enable": true,
