@@ -13,6 +13,7 @@ import random
 import re
 import subprocess
 import sys
+import traceback #新增代码
 import time
 from copy import deepcopy
 from dataclasses import dataclass, field
