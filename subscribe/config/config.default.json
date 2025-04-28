@@ -1,192 +1,154 @@
 {
-    "domains": [
-        {
-            "name": "",
-            "sub": [],
-            "domain": "",
-            "enable": true,
-            "rename": "",
-            "include": "",
-            "exclude": "",
-            "push_to": [],
-            "ignorede": true,
-            "liveness": true,
-            "tag": "",
-            "rate": 2.5,
-            "count": 2,
-            "coupon": "",
-            "secure": false,
-            "renew": {
-                "account": [
-                    {
-                        "email": "",
-                        "passwd": "",
-                        "ticket": {
-                            "enable": true,
-                            "autoreset": false,
-                            "subject": "",
-                            "message": "",
-                            "level": 1
-                        }
-                    }
-                ],
-                "plan_id": 3,
-                "package": "",
-                "method": 1,
-                "coupon_code": "",
-                "chatgpt": {
-                    "enable": true,
-                    "regex": "",
-                    "operate": "IN"
-                }
-            }
-        }
-    ],
-    "crawl": {
-        "enable": true,
-        "exclude": "",
-        "threshold": 5,
-        "singlelink": true,
-        "persist": {
-            "subs": "crawledsubs",
-            "proxies": "crawledproxies"
-        },
-        "config": {
-            "rename": "",
-            "include": "",
-            "exclude": "",
-            "xxxxxxx": ""
-        },
-        "telegram": {
-            "enable": true,
-            "pages": 5,
-            "exclude": "",
-            "users": {
-                "channel": {
-                    "include": "",
-                    "exclude": "",
-                    "config": {
-                        "rename": "",
-                        "xxxxxx": ""
-                    },
-                    "push_to": []
-                }
-            }
-        },
-        "google": {
-            "enable": false,
-            "exclude": "",
-            "notinurl": [],
-            "push_to": []
-        },
-        "github": {
-            "enable": true,
-            "pages": 2,
-            "push_to": [],
-            "exclude": "",
-            "spams": []
-        },
-        "twitter": {
-            "enable": true,
-            "users": {
-                "username": {
-                    "enable": true,
-                    "num": 30,
-                    "include": "",
-                    "exclude": "",
-                    "config": {
-                        "rename": "",
-                        "xxxxxx": ""
-                    },
-                    "push_to": []
-                }
-            }
-        },
-        "repositories": [
-            {
-                "enable": false,
-                "username": "",
-                "repo_name": "",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            }
-        ],
-        "pages": [
-            {
-                "enable": true,
-                "url": "",
-                "include": "",
-                "exclude": "",
-                "config": {
-                    "rename": ""
-                },
-                "push_to": []
-            }
-        ],
-        "scripts": [
-            {
-                "enable": false,
-                "script": "file#function",
-                "params": {
-                    "persist": {
-                        "fileid": ""
-                    },
-                    "any": "xxx",
-                    "config": {
-                        "enable": true,
-                        "liveness": true,
-                        "exclude": "",
-                        "rename": "",
-                        "push_to": []
-                    }
-                }
-            }
-        ]
+  "domains": [
+    {
+      "name": "Pawdroid-FreeServers",
+      "sub": [
+        "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/v2rayfree.json"
+      ],
+      "domain": "raw.githubusercontent.com",
+      "enable": true,
+      "push_to": [
+        "all"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "liveness": true
     },
-    "groups": {
-        "xxx": {
-            "emoji": true,
-            "list": true,
-            "targets": {
-                "clash": "xxx-clash",
-                "singbox": "xxx-singbox",
-                "v2ray": "xxx-v2ray"
-            },
-            "regularize": {
-                "enable": false,
-                "locate": true,
-                "bits": 2
-            }
-        }
+    {
+      "name": "Aiboboxx-v2rayfree",
+      "sub": [
+        "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2rayfree.json"
+      ],
+      "domain": "raw.githubusercontent.com",
+      "enable": true,
+      "push_to": [
+        "all"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "liveness": true
     },
-    "storage": {
-        "engine": "xxx",
-        "base": "https://api.xxx.com",
-        "domain": "https://xxx.com",
-        "items": {
-            "xxx-clash": {
-                "username": "",
-                "folderid": "",
-                "fileid": ""
-            },
-            "xxx-singbox": {
-                "fileid": ""
-            },
-            "xxx-v2ray": {
-                "username": "",
-                "fileid": ""
-            },
-            "crawledsubs": {
-                "username": "",
-                "folderid": "",
-                "fileid": ""
-            },
-            "crawledproxies": {
-                "username": "",
-                "folderid": "",
-                "fileid": ""
-            }
-        }
+    {
+      "name": "Free18-v2ray",
+      "sub": [
+        "https://raw.githubusercontent.com/free18/v2ray/master/subscribe.json"
+      ],
+      "domain": "raw.githubusercontent.com",
+      "enable": true,
+      "push_to": [
+        "all"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "liveness": true
+    },
+    {
+      "name": "sun9426-free-v2ray",
+      "sub": [
+        "https://sun9426.github.io/free-v2ray/subscribe.txt"
+      ],
+      "domain": "sun9426.github.io",
+      "enable": true,
+      "push_to": [
+        "all"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "liveness": true
+    },
+    {
+      "name": "skka3134-FreeServers",
+      "sub": [
+        "https://raw.githubusercontent.com/skka3134/Free-servers/main/subscribe.json"
+      ],
+      "domain": "raw.githubusercontent.com",
+      "enable": true,
+      "push_to": [
+        "all"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "liveness": true
     }
+  ],
+  "crawl": {
+    "enable": false,
+    "exclude": "",
+    "threshold": 5,
+    "singlelink": true,
+    "persist": {
+      "subs": "crawledsubs",
+      "proxies": "crawledproxies"
+    },
+    "config": {
+      "rename": "",
+      "include": "",
+      "exclude": ""
+    },
+    "telegram": {
+      "enable": false,
+      "pages": 0,
+      "exclude": "",
+      "users": {}
+    },
+    "github": {
+      "enable": false,
+      "pages": 0,
+      "exclude": "",
+      "push_to": [],
+      "spams": []
+    },
+    "google": {
+      "enable": false,
+      "exclude": "",
+      "notinurl": [],
+      "push_to": []
+    },
+    "twitter": {
+      "enable": false,
+      "users": {}
+    },
+    "repositories": [],
+    "pages": [],
+    "scripts": []
+  },
+  "groups": {
+    "all": {
+      "emoji": true,
+      "list": true,
+      "targets": {
+        "v2ray": "simple"
+      },
+      "regularize": {
+        "enable": false,
+        "locate": false,
+        "bits": 0
+      }
+    }
+  },
+  "storage": {
+    "engine": "local",
+    "base": "",
+    "domain": "",
+    "items": {
+      "simple": {
+        "fileid": "subscribe/output/subscriptions.yaml"
+      },
+      "crawledsubs": {
+        "fileid": ""
+      },
+      "crawledproxies": {
+        "fileid": ""
+      }
+    }
+  },
+  "update": {
+    "interval": 14400
+  },
+  "delay": 100
 }
