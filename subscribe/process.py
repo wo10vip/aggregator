@@ -284,20 +284,21 @@ def load_configs(
                 config = json.loads(open(localfile, "r", encoding="utf8").read())
                 os.environ["SUBSCRIBE_CONF"] = localfile
                 parse_config(config)
-
+    
         # check configuration
         if not verify(storage=storage, groups=groups):
             raise ValueError(f"there are some errors in the configuration, please check and confirm")
-
+    
         # execute crawl tasks
         if params:
             result = crawl.batch_crawl(conf=params, num_threads=num_threads, display=display)
             tasks.extend(result)
-    except SystemExit as e:
-        if e.code != 0:
-            logger.error("parse configuration failed due to process abnormally exits")
+    
+    except Exception as e:
+        logger.error(f"Error occurred while loading task config: {str(e)}")
+        logger.exception(e)  # This will provide the complete stack trace
+        sys.exit(0)
 
-        sys.exit(e.code)
     except:
         logger.error("occur error when load task config")
         sys.exit(0)
