@@ -257,12 +257,12 @@
         }
     },
     "storage": {
-        "engine": "file", //存储引擎设置为文件系统
-        "base": "",  //无需基础 URL，原始内容为https://api.xxx.com
-        "domain": "", //无需域名，原始内容为https://xxx.com
+        "engine": "file",
+        "base": "",
+        "domain": "",
         "items": {
             "sub.txt": {
-                "file_path": "./sub.txt"  //指定文件路径，存储到配置文件目录下的 sub.txt 文件
+                "file_path": "./sub.txt"
             },
             "xxx-clash": {
                 "username": "",
