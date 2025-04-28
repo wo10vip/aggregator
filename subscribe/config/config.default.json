@@ -2,22 +2,7 @@
     "domains": [
         {
             "name": "",
-            "sub": [
-                "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash",
-                "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
-                "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-                "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
-                "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
-                "https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml",
-                "https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml",
-                "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
-                "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
-                "https://raw.githubusercontent.com/Flikify/getNode/main/clash.yaml",
-                "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
-                "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml",
-                "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml",
-                "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/security/tls"
-            ],
+            "sub": [],
             "domain": "",
             "enable": true,
             "rename": "",
@@ -119,9 +104,105 @@
         },
         "repositories": [
             {
-                "enable": false,
-                "username": "",
-                "repo_name": "",
+                "enable": true,
+                "username": "ripaojiedian",
+                "repo_name": "freenode",
+                "commits": 3,
+                "exclude": "",
+                "push_to": []
+            },
+            {
+                "enable": true,
+                "username": "vxiaov",
+                "repo_name": "free_proxies",
+                "commits": 3,
+                "exclude": "",
+                "push_to": []
+            },
+            {
+                "enable": true,
+                "username": "ermaozi",
+                "repo_name": "get_subscribe",
+                "commits": 3,
+                "exclude": "",
+                "push_to": []
+            },
+            {
+                "enable": true,
+                "username": "peasoft",
+                "repo_name": "NoMoreWalls",
+                "commits": 3,
+                "exclude": "",
+                "push_to": []
+            },
+            {
+                "enable": true,
+                "username": "chengaopan",
+                "repo_name": "AutoMergePublicNodes",
+                "commits": 3,
+                "exclude": "",
+                "push_to": []
+            },
+            {
+                "enable": true,
+                "username": "go4sharing",
+                "repo_name": "sub",
+                "commits": 3,
+                "exclude": "",
+                "push_to": []
+            },
+            {
+                "enable": true,
+                "username": "qjlxg",
+                "repo_name": "aggregator",
+                "commits": 3,
+                "exclude": "",
+                "push_to": []
+            },
+            {
+                "enable": true,
+                "username": "anaer",
+                "repo_name": "Sub",
+                "commits": 3,
+                "exclude": "",
+                "push_to": []
+            },
+            {
+                "enable": true,
+                "username": "Flikify",
+                "repo_name": "getNode",
+                "commits": 3,
+                "exclude": "",
+                "push_to": []
+            },
+            {
+                "enable": true,
+                "username": "mfuu",
+                "repo_name": "v2ray",
+                "commits": 3,
+                "exclude": "",
+                "push_to": []
+            },
+            {
+                "enable": true,
+                "username": "Ruk1ng001",
+                "repo_name": "freeSub",
+                "commits": 3,
+                "exclude": "",
+                "push_to": []
+            },
+            {
+                "enable": true,
+                "username": "snakem982",
+                "repo_name": "proxypool",
+                "commits": 3,
+                "exclude": "",
+                "push_to": []
+            },
+            {
+                "enable": true,
+                "username": "soroushmirzaei",
+                "repo_name": "telegram-configs-collector",
                 "commits": 3,
                 "exclude": "",
                 "push_to": []
