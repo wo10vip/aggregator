@@ -2,7 +2,22 @@
     "domains": [
         {
             "name": "",
-            "sub": [],
+            "sub": [
+                "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash",
+                "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
+                "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
+                "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
+                "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
+                "https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml",
+                "https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml",
+                "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
+                "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
+                "https://raw.githubusercontent.com/Flikify/getNode/main/clash.yaml",
+                "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
+                "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml",
+                "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml",
+                "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/security/tls"
+            ],
             "domain": "",
             "enable": true,
             "rename": "",
